@@ -11,3 +11,13 @@ It is an iterative process. No design can fit all of the constraints at once. De
 
 ## How to answer a system design question?
 Interviewers will often ask to design a feature in an already built app like Facebook, Twitter, etc. Of course, these systems were built by engineers over years and not in a 30 minute interview. Over the duration of this course, will be trying to tell about 'How to design a scalable software system through various examples'. Will also be giving some strategies to present your knowledge in the best way.
+
+## Template to approach a system design problem:
+This is a template you can use in answering a system design problem. 
+1. Clarify requirements. Everything which comes to your mind, functional and non-functional.
+2. Estimate the scale of traffic which would come, bandwidth required. 
+3. Define the APIs and the data models which would be used.
+4. Draw the high level architecture which covers the major architecture and how data flows in the system.
+5. Start a deep dive in major components such as databases, caching, queues, etc.
+6. Identify the bottlenecks for the system, where the system could fail and then add scaling.
+7. Finally, summarise the whole flow and explain why you took a certain decision.
